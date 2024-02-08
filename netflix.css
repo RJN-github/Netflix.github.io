@@ -100,7 +100,7 @@ select .option:hover {
   justify-content: center;
   z-index: 10;
   line-height: 18px;
-  padding:20px;
+  padding: 20px;
 }
 .ip input {
   font-size: 15px;
