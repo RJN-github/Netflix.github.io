@@ -422,6 +422,9 @@ ul li:hover {
   nav{
     max-width: 60vh;
   }
+  .ip{
+    padding:20px;
+  }
   .main .text{
     height: 280px;
     width: 90%;
