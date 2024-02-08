@@ -100,6 +100,7 @@ select .option:hover {
   justify-content: center;
   z-index: 10;
   line-height: 18px;
+  padding:20px;
 }
 .ip input {
   font-size: 15px;
@@ -421,9 +422,6 @@ ul li:hover {
   }
   nav{
     max-width: 60vh;
-  }
-  .ip{
-    padding:20px;
   }
   .main .text{
     height: 280px;
