@@ -1,0 +1,591 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Martel Sans", sans-serif;
+}
+html{
+  max-width: 100vw;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/images/background-netflix.jpg");
+  height: 77vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1400px, 110vw);
+  position: relative;
+}
+.main .box {
+  height: 77vh;
+  width: 100%;
+  opacity: 0.64;
+  top: 0;
+  position: absolute;
+  background-color: black;
+}
+nav {
+  margin: auto;
+  max-width: 135vh;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+nav img {
+  z-index: 10;
+  width: 140px;
+  position: relative;
+}
+nav button {
+  position: relative;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  margin: 10px;
+  color: white;
+  height: 30px;
+  width: 70px;
+  z-index: 10;
+}
+nav select {
+  background: transparent;
+  color: white;
+  position: relative;
+  margin: 10px;
+  height: 30px;
+  width: 70px;
+  z-index: 10;
+}
+select option {
+  background: transparent;
+}
+select .option:hover {
+  color: blue;
+  background-color: blue;
+}
+.text {
+  height: 40%;
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  padding-top: 47px;
+  font-family: "Martel Sans", sans-serif;
+}
+.text :nth-child(1) {
+  font-size: 52px;
+  font-weight: 900;
+}
+.text :nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+}
+.text :nth-child(3) {
+  font-size: 15px;
+  font-weight: 400;
+}
+.ip {
+  height: 10%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  line-height: 18px;
+}
+.ip input {
+  font-size: 15px;
+  line-height: 18px;
+  height: 50px;
+  width: 300px;
+  background: rgba(15, 14, 14, 0.692);
+  color: white;
+  margin: 4px;
+  border-radius: 5px;
+}
+.ip ::placeholder{
+  color: white;
+  font-size: 15px;
+}
+.ip button {
+  margin: 4px;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 400px;
+
+  font-size: 20px;
+}
+hr {
+  border: none;
+  height: 8px;
+  background-color: rgb(48, 47, 47);
+}
+.section-2 {
+  width: 95vw;
+  height: 620px;
+  display: flex;
+}
+.section-2 .text1 {
+  display: flex;
+  padding: 47px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+
+  color: white;
+  font-family: "Martel Sans", sans-serif;
+}
+.text1 :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+.text1 :nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+}
+.section-2 .iv1 {
+  width: 50%;
+  position: relative;
+  padding: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iv1 img {
+  width: 70%;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.iv1 video {
+  width: 70%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.section-3 {
+  width: 95vw;
+  height: 490px;
+  display: flex;
+}
+.section-3 .text2 {
+  width: 50%;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.section-3 .iv2 {
+  position: relative;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dwd-text {
+  display: flex;
+  flex-direction: column;
+  transform: translate(-px);
+}
+
+.dwd-text1 {
+  height: 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.dwd-text2 {
+  color: #0071eb;
+  font-size: 14px;
+  font-weight: 400;
+}
+.download {
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+  outline: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 60%;
+  transform: translate(10px,138px);
+  scale: 0.8;
+}
+.download .gif {
+  padding-right: 10px;
+  height: 45px;
+  width: 50px;
+}
+.download .dwd {
+  padding-left: 12px;
+  height: 75px;
+  width: 50px;
+}
+.dwd-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.7;
+}
+
+.text2 :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+.text2 :nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-4 {
+  width: 95vw;
+  height: 500px;
+  display: flex;
+}
+.section-4 .text3 {
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.text3 :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+.text3 :nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-4 .iv3 {
+  width: 50%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iv3 .image {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+  scale: 0.8;
+}
+.iv3 .vid {
+  scale: 0.7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  top: 46px;
+}
+.section-5 {
+  width: 95vw;
+  height: 500px;
+  display: flex;
+}
+.section-5 .iv4 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-5 .text4 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.text4 :nth-child(1) {
+  font-size: 50px;
+  font-weight: 900;
+}
+.text4 :nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-6 .text5 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 52px;
+  font-weight: 900;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9px auto;
+  border-radius: 5px;
+  width: 70vw;
+  height: 30px;
+  color: whitesmoke;
+  background-color: rgb(46, 46, 46);
+  padding: 20px;
+  border: 2px solid black;
+  transition: all ease-in-out 0.4s;
+}
+ul li:hover {
+  background-color: rgb(87, 87, 87);
+}
+
+.foot-ip :nth-child(1) {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.foot-ip{
+  padding-top: 43px;
+  height: 180px;
+}
+
+.foot-ip .ip{
+  height: 50%;
+}
+
+.foot-section{
+  margin:50px auto;
+  width: 80vw;
+  row-gap: 0px;
+     column-gap:30px;
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+}
+.foot-section a{
+  color: rgb(134, 134, 134);
+}
+.foot-select{
+  margin-left: 124px;
+}
+.foot-select select{
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+}
+.foot-select :nth-child(2){
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.foot-select :nth-child(3){
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+}
+.credits{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width:930px){
+
+  .main{
+    width: 100vw;
+  }
+  nav{
+    max-width: 60vh;
+  }
+  .main .text{
+    height: 280px;
+    width: 90%;
+    margin: auto;
+  }
+  .text :nth-child(1){
+    font-size: 30px ;
+  }
+  .text :nth-child(2){
+    font-size: 15px;
+  }
+  .section-2{
+    overflow-wrap: break-word;
+    height: 583px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 .text1{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 .iv1{
+    height: 117%;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-3{
+    height: 690px;
+    width: 95vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-3 .text2{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text2 :nth-child(1){
+    font-size: 34px;
+    font-weight: 900;
+  }
+  .text2 :nth-child(2){
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .section-3 .iv2{
+    position: relative;
+    height: 50%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .iv2 .dwd-img{
+    height: 390px;
+  }
+  .iv2 .download{
+    scale: 0.9;
+    transform: translate(0px,117px);
+    position: absolute;
+    justify-content: space-between;
+  }
+  .dwd-text{
+    transform: translate(0px);
+  }
+  .download .dwd-text1{
+    font-size:10px;
+  }
+  .download .dwd-text2{
+    font-size:8px;
+  }
+  .section-4{
+    flex-direction: column-reverse;
+  }
+  .section-4 .iv3{
+    height: 70%;
+width: 100%;
+  }
+  .iv3 .image{
+    scale: 0.6;
+  }
+  .iv3 .vid{
+    scale: 0.5;
+    top: 10px;
+  }
+  .section-4 .text3{
+    height: 30%;
+    width: 100%;
+  }
+  .text3 :nth-child(1){
+    font-size: 35px;
+  }
+  .text3 :nth-child(2){
+    font-size: 18px;
+  }
+
+  .section-5{
+    flex-direction: column-reverse;
+  }
+
+  .section-5 .iv4{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iv4 .child{
+scale: 0.5;
+  }
+  .section-5 .text4{
+    height: 25%;
+    width: 100%;
+  }
+  .text4 :nth-child(1){
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .text4 :nth-child(2){
+    font-size: 15px;
+    font-weight:500;
+  }
+  .section-6 .text5{
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-6 .foot-ip{
+   text-align: center;
+  }
+  .foot-ip #email{
+    width: 230px;
+  }
+  .foot-ip .gs{
+    font-size: 15px;
+  }
+  .foot-section{
+    width: 95vw;
+    column-gap: 17px;
+    margin-left: 18px;
+  }
+  .foot-select{
+    margin-left: 30px;
+  }
+}
+@media  screen and (max-width:630px) {
+  .download{
+    width: 130%;
+  }
+  
+}
